@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="css/jpic.css" />
+    <script src="js/jpic.js"></script>
+    <!--@@@ ANGULARJS @@@-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!--@@@ END ANGULARJS @@@-->
+    <!--@@@ W3CSS @@@-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!-- local link w3.css -->
+    <!-- <link rel="stylesheet" href="../AAA_CSS/w3.css" /> -->
+    <!--@@@  END W3CSS @@@-->
+    <!--@@@ ICON LIBARIES @@@-->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Boot Strap -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />-->
+    <!-- Google Icons -->
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />-->
+    <!--<style>.material-icons {vertical-align:-14%}</style>-->
+    <!--@@@ END ICON LIBARIES @@@-->
+  </head>
+  <title>James Pankhurst Internet Coding</title>
+  <body class="w3-container w3-padding w3-mobile">
+
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Header @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="w3-card-4 w3-padding w3-mobile">
+      <!-- logo -->
+
+      <div class="w3-container w3-animate-opacity w3-mobile">
+
+        <img src="svg/jpic_sc3x3_132x66.svg" alt="james pankhurst internet coding" />
+
+        <div class="w3-container w3-mobile w3-animate-opacity w3-padding">
+          <img src="svg/james_pankhurst_internet_coding.svg" alt="james pankhurst internet coding" />
+        </div>
+      </div>
+      <!-- end logo -->
+      
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ end header @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    
+    <!-- @@@@@@@@@@@@@@@@@@@@ Navigation Bar @@@@@@@@@@@@@@@@@@@@ -->
+    <div class="w3-bar w3-card-4 w3-white w3-border w3-mobile" >
+      <a href="#" class="w3-bar-item w3-button w3-mobile w3-wide w3-hover-orange tablink w3-amber" onclick="openTopic(event,'Home')">home</a>
+      <a href="#" class="w3-bar-item w3-button w3-mobile w3-wide w3-hover-orange tablink" onclick="openTopic(event,'Technologies')">technologies</a>
+      <a href="#" class="w3-bar-item w3-button w3-mobile w3-wide w3-hover-orange tablink" onclick="openTopic(event,'Current')">currently..</a>
+      <a href="#" class="w3-bar-item w3-button w3-mobile w3-wide w3-hover-orange tablink" onclick="openTopic(event,'Projects')">previously..</a>
+      <a href="#" class="w3-bar-item w3-button w3-mobile w3-wide w3-hover-orange tablink w3-right" onclick="document.getElementById('id01').style.display='block'">login</a>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@ end Navigation Bar @@@@@@@@@@@@@@@@@@@@-->
+    
+    <!--@@@@@@@@@@@@@@@@@@@@ Main Container @@@@@@@@@@@@@@@@@@@@-->
+    <div id="main-container" class="w3-card w3-mobile">
+      <!--@@@@@@@@@@ Home @@@@@@@@@@-->
+      <div id="Home" class="w3-container w3-padding w3-border w3-mobile w3-animate-opacity topic">
+        <div id="slide_show" class="w3-panel w3-cell-row w3-mobile">
+          <h2 style="display:block">
+            <!-- .jpic tag -->
+            <div style="display:inline-block" class="w3-container w3-left w3-mobile">
+              <div class="w3-tag w3-white">
+                <img src="svg/jpic_svg/jpic_sc2x2_88x44.svg" alt="jpic" />
+              </div>
+            </div>
+            <p class="w3-container w3-large w3-wide w3-mobile">internet coding services..</p>
+            <!-- end .jpic tag -->
+          </h2>
+
+        </div>
+        <!--@@@@@@@@@@ end Home @@@@@@@@@@-->
+      </div>
+      <!--@@@@@@@@@@@@@@@@@@@@ end Main-container @@@@@@@@@@@@@@@@@@@@-->
+
+      <!--@@@@@ Projects @@@@@-->
+      <div id="Projects" class="w3-container w3-padding w3-border w3-animate-opacity w3-mobile topic" style="display:none">
+        <h2>
+          <!-- .jpic tag -->
+          <div style="display:inline-block" class="w3-container w3-left w3-mobile">
+            <div class="w3-tag w3-white">
+              <img src="svg/jpic_svg/jpic_sc1x1_44x22.svg" alt="jpic" />
+            </div>
+          </div>
+          <!-- end .jpic tag -->
+          Projects
+        </h2>
+        <div id="projectselector" class="w3-cell-row w3-mobile">
+          <button id="p01" class="w3-btn w3-cell w3-mobile w3-amber w3-round w3-border" onclick="showData(1)">TrackPro</button>
+          <button id="p02" class="w3-btn w3-cell w3-mobile w3-amber w3-round w3-border" onclick="showData(2)">The RSP</button>
+          <button id="p03" class="w3-btn w3-cell w3-mobile w3-amber w3-round w3-border" onclick="showData(3)">Sharon Lee</button>
+        </div>
+        <div class="w3-panel  w3-mobile" id="projectDetailsJSON">
+          <p class="w3-panel"  id="project_header">Examples of our work...</p>
+          <p class="w3-panel" id="project_details">click above to see example projects</p>
+        </div>
+        <div id="iframe_holder" class="w3-panel w3-padding w3-card-4 w3-border w3-mobile" style="height:460px;width:50%;">
+          <iframe src="svg/jpic_svg/jpic_sc4x4_176x88.svg" id="iframe_a" name="iframe_a" title="Project website" style="height:450px;width:100%;border:none;" frameborder='0' allowfullscreen='false'></iframe>
+        </div>
+        <hr />
+      </div>
+      <!--@@@@@ end Projects @@@@@-->
+
+      <!--@@@@@ Current Projects @@@@@-->
+      <div id="Current" class="w3-container w3-padding w3-border w3-animate-opacity topic" style="display:none">
+        <h2>
+          <!-- .jpic tag -->
+          <div style="display:inline-block" class="w3-container w3-left w3-mobile">
+            <div class="w3-tag w3-white">
+              <img src="svg/jpic_svg/jpic_sc1x1_44x22.svg" alt="jpic" />
+            </div>
+          </div>
+          <!-- end .jpic tag -->
+          Current Projects
+        </h2>
+          <div id="projectselector" class="w3-cell-row w3-mobile">
+            <button id="p04" class="w3-btn w3-cell w3-mobile w3-amber w3-round w3-border" onclick="showData(4)">Casino Jimbo</button>
+            <button id="p07" class="w3-btn w3-cell w3-mobile w3-amber w3-round w3-border" onclick="showData(7)">Dice Decide</button>
+          </div>
+          <div class="w3-panel  w3-mobile" id="projectDetailsJSON1">
+            <p class="w3-panel"  id="project_header1">Current projects.</p>
+            <p class="w3-panel" id="project_details1">click above...</p>
+          </div>
+          <div id="iframe_holder1" class="w3-panel w3-padding w3-card-4 w3-border w3-mobile" style="height:460px;width:50%;">
+            <iframe src="svg/jpic_svg/jpic_sc4x4_176x88.svg" id="iframe_a1" name="iframe_a" title="Project website" style="height:450px;width:100%;border:none;" frameborder='0' allowfullscreen='false'></iframe>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!--@@@@@ end Current Projects @@@@@-->
+    
+    <!--@@@@@ Technologies @@@@@-->
+    <div id="Technologies" class="w3-container w3-padding w3-border w3-animate-opacity topic" style="display:none">
+      <h2>
+         <!-- .jpic tag -->
+          <div style="display:inline-block" class="w3-container w3-left w3-mobile">
+            <div class="w3-tag w3-white">
+              <img src="svg/jpic_svg/jpic_sc1x1_44x22.svg" alt="jpic" />
+            </div>
+          </div>
+          <!-- end .jpic tag -->
+      </h2>
+
+        <h2>Technologies &amp Platforms</h2>
+        <div class="w3-cell-row w3-mobile">
+          <div class="w3-container w3-border w3-cell w3-mobile">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Ajax</li>
+              <li>XML</li>
+              <li>JSON</li>
+              <li>AngularJS</li>
+              <li>React</li>
+              <li>SVG</li>
+              <li>vbScript</li>
+              <li>Classic ASP</li>
+            </ul>
+          </div>
+          <div class="w3-container w3-border w3-cell w3-mobile">
+            <ul>
+              <li>PHP</li>
+              <li>ASP.NET</li>
+              <li>vb.net</li>
+              <li>Sql</li>
+              <li>IIS</li>
+              <li>Apache</li>
+              <li>Red Hat</li>
+              <li>mySQL</li>
+              <li>SQL Server</li>
+              <li>MS Access / vba</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <!--@@@@@ end Technologies @@@@@-->
+
+    <!--@@@@@@@@@@@@@@@@@@ Login form @@@@@@@@@@@@@@@@@@-->
+    <!-- w3-container1 Login Form  -->
+    <div class="w3-container">
+      <!-- div id01 -->
+      <div id="id01" class="w3-modal">
+        <!-- div id02 -->
+        <div id="id02" class="w3-modal-content w3-white w3-card-4 w3-animate-zoom" style="max-width:600px">
+          <div class="w3-center" >
+            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+             <!-- .jpic tag -->
+          <div style="display:inline-block" class="w3-container w3-left w3-mobile">
+            <div class="w3-tag w3-white">
+              <img src="svg/jpic_svg/jpic_sc1x1_44x22.svg" alt="jpic" />
+            </div>
+          </div>
+          <!-- end .jpic tag -->        
+          </div>
+          <!-- frm01 - Login Form -->
+          <form id="frm01" class="w3-container" action="#">
+            <div class="w3-section">
+              <label class="w3-row w3-arial">
+                <text x="0" y="35" fill="grey"  font-size="18" font-family="Arial">username</text>
+              </label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required="" />
+              <label class="w3-row w3-arial">
+                <text x="0" y="35" fill="grey"  font-size="18" font-family="Arial">password</text>
+              </label>
+              <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required="" />
+              <button class="w3-button w3-block w3-orange w3-wide w3-section w3-padding w3-arial" type="submit">login</button>
+              <input class="w3-check w3-margin-top" type="checkbox" checked="checked" /> Remember me
+            </div>
+          </form>
+          <!-- end frm01-->
+          <!-- w3-container2 Cancel / Forgot Password -->
+          <div class="w3-container w3-border-top w3-padding-16 w3-grey" >
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-orange w3-arial">Cancel</button>
+            <span class="w3-right w3-padding w3-hide-small w3-arial" >
+              Forgot <a href="#">password?</a>
+            </span>
+          </div>
+          <!-- end w3-container2 -->
+        </div>
+        <!-- end id02 -->
+      </div>
+      <!--end id01 -->
+    </div>
+    <!-- end w3-container1 Login Form -->
+    <!--@@@ end Login form @@@-->
+
+
+    <!--@@@ Javascript Functions @@@-->
+
+    <script>
+      function showData(pid) {
+      var xhttp;
+      if (pid == "") {
+      document.getElementById("projectDetailsJSON").innerHTML = "";
+      return;
+      }
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+      /* JSON.PARSE TO CONVERT PHP DATA TO JAVASCRIPT OBJECT */
+      var pj = JSON.parse(this.responseText);
+      document.getElementById("iframe_a").src = pj.pjURL;
+      var projectheader = pj.pjHeader + " - " + pj.pjSubhead;
+      document.getElementById("project_header").innerHTML =  projectheader;
+      document.getElementById("project_details").innerHTML = pj.pjDetails;
+      }
+      };
+      xhttp.open("GET", "php/showProject.php?pid="+pid, true);
+      xhttp.send();
+      }
+    </script>
+
+    <!--function login(uid)-->
+    <script type="text/javascript">
+      function login(uid) {
+      var xhttp;
+      if (uid == "") {
+      $("main-container").innerHTML = "";
+      return;
+      }
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+      $("main-container").innerHTML = this.responseText;
+      }
+      };
+      xhttp.open("GET", "php/login.php?uid="+uid, true);
+      xhttp.send();
+      };
+    </script>
+
+    <!-- Menu Tab Display -->
+    <script>
+      function openTopic(evt, topicName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("topic");
+      for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+        tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-amber", "");
+          }
+      $(topicName).style.display = "block";
+      evt.currentTarget.className += " w3-amber";
+      }
+    </script>
+    <!-- end Menu Tab Display -->
+
+    <!--@@@ end Javascript Functions @@@-->
+  </body>
+</html>
