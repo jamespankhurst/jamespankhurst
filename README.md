@@ -12,7 +12,7 @@ www.trackpro.co.uk (2007 - Insurance Claim tracking system)
 www.thersp.com (2002 - Now Viviene Clore - Artisite Contnet Management System)
 www.sharonleeltd.co.uk (2001 - Cap design  system)
 
-My skills are all back end; .NET, SQLServer etc, not getting involved with the html, ccss, javascipt.
+My skills and experience are mainly back end; .NET, SQLServer etc.
 
 I decided to recity that, the results, so far (a WIP), you can see at my *apprentice* javascript piece; Orion Dice Decide.
 
