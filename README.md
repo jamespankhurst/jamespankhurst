@@ -28,12 +28,6 @@ I abandoned the project and returned to my main project letcomm.
 
 https://jamespankhurst.co.uk/letcomm
 
-=======
-I have been studying javascript. The power of js objects is remarkable.
-
-See my javascript *apprentice piece* Orion Dice Decide, forever unfinished..
->>>>>>> main
-
 <!--
 - 👯 - 🤔 - 💬 - 📫 - 😄 - 
 
