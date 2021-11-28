@@ -1,23 +1,32 @@
 ### Greetings 👋
 
-I've been coding for 40 years, can't remember how many languages I've forgotton.
-
-If any coders come across some annoying legacy code to navigate  vbScript, Classis Asp etc, please feel free to drop me a line, maybe I can help. Have successfully converted a couple of sites from classic asp to .NET.
+I've been coding for 40 years.
 
 The one thing I have learnt, is that whilst I can make stuff work, I am *useless* at making stuff look good.
 
-It's working with *creative, artistic* people that makes the difference, some examples;
+Before the internet it didn't really matter as the user got what they were given. Then..
 
-www.trackpro.co.uk (2007 - Insurance Claim tracking system)
-www.thersp.com (2002 - Now Viviene Clore - Artisite Contnet Management System)
-www.sharonleeltd.co.uk (2001 - Cap design  system)
+I realised that it's working with *creative, artistic* people that makes the difference;
 
-My skills and experience are mainly back end; .NET, SQLServer etc.
+www.trackpro.co.uk 
 
-I decided to recity that, the results, so far (a WIP), you can see at my *apprentice* javascript piece; Orion Dice Decide.
+www.thersp.com 
 
-See the pinned tab below or 
+www.sharonleeltd.co.uk
+
+Perhaps because of this, I never really got the chance to study Javascript, CSS etc.
+
+Unexpectedly, (don't ask) I had some time and I decided to recity that.
+
+Harking back to my 80's Commodore 64 coding days, I decided to make a game as a learning vehicle, *Orion Dice Decide*.
+
 https://jamespankhurst.co.uk/odd1
+
+I got so far, but when I realised and understood that js objects could contain arrays and other js objects, it was *Game Over*. 
+
+I abandoned the project and returned to my main project letcomm.
+
+https://jamespankhurst.co.uk/letcomm
 
 
 <!--
