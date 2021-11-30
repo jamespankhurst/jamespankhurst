@@ -1,32 +1,40 @@
-### Greetings 👋
+### I love coding. 
 
-I've been coding for 40 years.
+Been doing it for years, only discovered Git in September 2021.   
 
-The one thing I have learnt, is that whilst I can make stuff work, I am *useless* at making stuff look good.
+For months, years I'd been meaning to look into Git, but something always got in the way. 
 
-Before the internet it didn't really matter as the user got what they were given. Then..
+Including laziness.
 
-I realised that it's working with *creative, artistic* people that makes the difference;
+What a mistake! 
 
-www.trackpro.co.uk 
+What a fantastic reource. 
 
-www.thersp.com 
+My internet coding background is mainly backend. I realised that whilst I could make stuff work, I was *useless* at making stuff look good. 
+So I started working with designers and realised that it's working with *creative, artistic* people that makes the difference.
+Some examples working with *Storm Design* in early 2000's;
 
-www.sharonleeltd.co.uk
+http://www.thersp.com
+http://www.sharonleeltd.co.uk
+http://www.pawleandco.co.uk
 
-Perhaps because of this, I never really got the chance to study Javascript, CSS etc.
+I developed an online database application Claimtrack.co.uk, classic ASP, for the insurance repair/refurbishment industry.
 
-I had some time and I decided to recity that.
+I then re-coded for .NET and Claimtrack became;
 
-Harking back to my 80's Commodore 64 coding days, I decided to make a game as a learning vehicle, *Orion Dice Decide*.
+http://www.trackpro.co.uk
 
-https://jamespankhurst.co.uk/odd1
+This was a great tool for landlords, but was of no use to the.
 
-I got so far, but when I realised and understood that js objects could contain arrays and other js objects, it was *Game Over*. 
+In the current and future generations, for many, home ownership hss become a *hope*, rather than an expectation.
 
-I abandoned the project and returned to my main project letcomm.
+Yet the landlords and property management companies hold all the cards.
 
-https://jamespankhurst.co.uk/letcomm
+So I've decided to re-write my code once again, this time for the tenant...
+
+Letcomm
+
+See pinned link below.
 
 <!--
 - 👯 - 🤔 - 💬 - 📫 - 😄 - 
