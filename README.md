@@ -8,7 +8,7 @@ Including laziness.
 
 What a mistake! 
 
-What a fantastic reource. 
+What a fantastic resource. 
 
 My internet coding background is mainly backend. I realised that whilst I could make stuff work, I was *useless* at making stuff look good. 
 So I started working with designers and realised that it's working with *creative, artistic* people that makes the difference.
@@ -24,17 +24,27 @@ I then re-coded for .NET and Claimtrack became;
 
 http://www.trackpro.co.uk
 
-This was a great tool for landlords, but was of no use to the.
+This was a great tool for landlords, but was of no use to tenants.
 
-In the current and future generations, for many, home ownership hss become a *hope*, rather than an expectation.
+In the current and future generations, for many, home ownership hss become a *hope*, rather than an *expectation*.
 
 Yet the landlords and property management companies hold all the cards.
 
 So I've decided to re-write my code once again, this time for the tenant...
 
-Letcomm
+*Letcomm*
 
-See pinned link below.
+See pinned tab below.
+
+Recent events gave me time to study Javascript. 
+
+Obviously I have been using for years, but as a back end coder, really just passed data for the designers.
+
+Harking back to my Commodore 64 coding days, I decided to makke a game.
+
+*Orion Dice Decide*
+
+See pinned tab below.
 
 <!--
 - 👯 - 🤔 - 💬 - 📫 - 😄 - 
