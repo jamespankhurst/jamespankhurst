@@ -38,9 +38,9 @@ See pinned tab below.
 
 Recent events gave me time to study Javascript. 
 
-Obviously I have been using for years, but as a back end coder, really just passed data for the designers.
+Obviously I have been using js for years, but as a back end coder, really just passed data for the designers.
 
-Harking back to my Commodore 64 coding days, I decided to makke a game.
+Harking back to my Commodore 64 coding days, I decided to make a game.
 
 *Orion Dice Decide*
 
