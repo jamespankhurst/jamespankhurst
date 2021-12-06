@@ -1,12 +1,10 @@
-### I love coding. 
+### If only... 
 
-Been doing it for years, only discovered Git in September 2021.   
+.. I'd explored Git earlier.
 
-For months, years I'd been meaning to look into Git, but something always got in the way. 
+Been coding for years and had been meaning to look into Git for years. 
 
-Including laziness.
-
-What a mistake! 
+Finally got un-lazy in September 2021.   
 
 What a fantastic resource. 
 
