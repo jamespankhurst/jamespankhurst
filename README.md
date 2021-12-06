@@ -1,15 +1,15 @@
-### If only... 
+### I don't have many regrets in life, but... 
 
-.. I'd explored Git earlier.
+.. I wished I had explored Git earlier.
 
-Been coding for years and had been meaning to look into Git for years. 
+Been coding for years and had been meaning to look into it.
 
 Finally got un-lazy in September 2021.   
 
 What a fantastic resource. 
 
 My internet coding background is mainly backend. I realised that whilst I could make stuff work, I was *useless* at making stuff look good. 
-So I started working with designers and realised that it's working with *creative, artistic* people that makes the difference.
+So I started working with designers. Then I realised that it's working with *creative, artistic* people that makes the difference.
 Some examples working with *Storm Design* in early 2000's;
 
 http://www.thersp.com
