@@ -8,12 +8,20 @@ Finally got un-lazy in September 2021.
 
 What a fantastic resource. 
 
-My internet coding background is mainly backend. I realised that whilst I could make stuff work, I was *useless* at making stuff look good. 
-So I started working with designers. Then I realised that it's working with *creative, artistic* people that makes the difference.
-Some examples working with *Storm Design* in early 2000's;
+My coding background, from the 80's, was mainly backend, database systems. 
+
+Before the internet, we didn't really pay a lot of attention to how things looked....the internet was created and design became paramount. 
+
+I realised that whilst I could make stuff work, I was *useless* at making stuff look good. 
+
+It was when I hooked up with *Storm Design* in early 2000's, that I realised that it's working with *creative, artistic* people that makes the difference.
+
+Some examples;
 
 http://www.thersp.com
+
 http://www.sharonleeltd.co.uk
+
 http://www.pawleandco.co.uk
 
 I developed an online database application Claimtrack.co.uk, classic ASP, for the insurance repair/refurbishment industry.
